@@ -5,9 +5,9 @@ require('dotenv').config();
 const toBool = (value) => value === "true";
 
 // Owner & Bot Details
-global.owner = process.env.OWNER_NUMBER;
+global.owner = process.env.OWNER_NUMBER; "2348056003780"
 global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.ownername = process.env.OWNER_NAME || "David Cyril";
+global.ownername = process.env.OWNER_NAME || "Sammy Logs";
 global.packname = process.env.PACK_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
 global.author = process.env.AUTHOR || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
 global.channelname = process.env.CHANNEL_NAME || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
@@ -18,11 +18,11 @@ global.autoTyping = toBool(process.env.AUTO_TYPING);
 global.autoRecord = toBool(process.env.AUTO_RECORD);
 global.autoViewStatus = toBool(process.env.AUTO_VIEW_STATUS);
 global.AUTO_STATUS_REACT = toBool(process.env.AUTO_STATUS_REACT);
-global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "💚";
+global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "☠️";
 global.LEVELUP = toBool(process.env.LEVELUP);
 global.ANTIVIEWONCE = toBool(process.env.ANTIVIEWONCE);
 
-global.public = process.env.PUBLIC === 'true';
+global.public = process.env.PUBLIC === 'false';
 // Group & Security Settings
 
 global.ANTIDELETE = toBool(process.env.ANTIDELETE);
@@ -34,7 +34,7 @@ global.autoreact = toBool(process.env.AUTO_REACT);
 global.WELCOME = toBool(process.env.WELCOME);
 
 // Prefix & Other Settings
-global.prefix = process.env.PREFIX || '.';
+global.prefix = process.env.PREFIX || '';
 global.autobio = toBool(process.env.AUTO_BIO);
 global.ANTI_TEMU = toBool(process.env.ANTI_TEMU);
 global.ANTI_TAG = toBool(process.env.ANTI_TAG);
